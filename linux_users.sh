@@ -5,7 +5,7 @@ if [ $(id -u) -eq 0 ]; then
 rtjklm
 sdfghyujk
 fghjkl
-	read -s -p "SVP Enter password : " password
+	read -s -p "SVP Enter password please: " password
 	egrep "^$username" /etc/passwd >/dev/null
 	if [ $? -eq 0 ]; then
 		echo "$username exists!"
